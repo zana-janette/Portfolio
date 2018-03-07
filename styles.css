@@ -264,7 +264,9 @@ canvas {
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
-    background-size: cover;;
+    background-size: cover;
+    padding-bottom: 50px;
+    
 }
 
 .project-row{
@@ -576,4 +578,10 @@ canvas {
     padding: 3% 0;
     font-size: 1.4rem;
     text-transform: uppercase;
+}
+/*** Footer ***/
+.footer-container{
+    background-color: #000513; 
+    color: #fff;
+    text-align: center;
 }
